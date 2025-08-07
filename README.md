@@ -2,12 +2,12 @@
 This project predicts student placement outcomes based on academic and profile data using a trained Random Forest Classifier. It uses a complete machine learning pipeline with preprocessing, label encoding, and model persistence using `joblib`.
 
 ## Files and Structure
-├── placement.csv # Original dataset
-├── input.csv # Automatically generated test data (from StratifiedShuffleSplit)
-├── output.csv # Output file with predictions
-├── model.pkl # Trained Random Forest model
-├── preprocessing_pipeline.pkl # Preprocessing pipeline (numerical + categorical)
-├── label_encoder.pkl # Encoder to convert labels to/from numeric
+1. placement.csv # Original dataset
+2. input.csv # Automatically generated test data (from StratifiedShuffleSplit)
+3. output.csv # Output file with predictions
+4. model.pkl # Trained Random Forest model
+5. preprocessing_pipeline.pkl # Preprocessing pipeline (numerical + categorical)
+6. label_encoder.pkl # Encoder to convert labels to/from numeric
 
 ## How the Model Works
 
